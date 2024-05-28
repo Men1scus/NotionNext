@@ -53,7 +53,7 @@ const Slug = props => {
     if (post?.password && post?.password !== '') {
       setLock(true)
     } else {
-      setLock(false)
+      // setLock(false)
       if (!lock && post?.blockMap?.block) {
         // post.content = Object.keys(post.blockMap.block).filter(
         //   key => post.blockMap.block[key]?.value?.parent_id === post.id
