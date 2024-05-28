@@ -11,6 +11,9 @@ const SocialButton = () => {
       {siteConfig('CONTACT_GITHUB') && <a target='_blank' rel='noreferrer' title={'github'} href={siteConfig('CONTACT_GITHUB')} >
         <i className='fab fa-github transform hover:scale-125 duration-150'/>
       </a>}
+      {siteConfig('CONTACT_WECHAT') && <a target='_blank' rel='noreferrer' title={'github'} href={siteConfig('CONTACT_WECHAT')} >
+        <i className='transform hover:scale-125 duration-150 fab fa-weixin dark:hover:text-indigo-400 hover:text-indigo-600'/>
+      </a>}                                                                                                      
       {siteConfig('CONTACT_TWITTER') && <a target='_blank' rel='noreferrer' title={'twitter'} href={siteConfig('CONTACT_TWITTER')} >
         <i className='fab fa-twitter transform hover:scale-125 duration-150'/>
       </a>}
